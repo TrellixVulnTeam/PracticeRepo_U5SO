@@ -1,9 +1,44 @@
-.p{
-    background-attachment: fixed;
-    background-color: aqua;
-    color: blue;
-    float: left;
-    border: cadetblue;
-    border-width: 0.7cm;
+* {
+    box-sizing: border-box;
+}
 
+body{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(61, 57, 57);
+    font-family: 'Gill sans, 'Gill sans MT', Calibri, ;
+}
+body,.quote-input{
+    font-family: 'Brush Script MT', cursive;
+}
+.container{
+    background-color: rgb(143, 73, 150);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width:90%;
+}
+.timer{
+    position:absolute;
+    top: 2rem;
+    font-size:3rem;
+    color: red;
+    font-weight: bold, italic;
+
+}
+.quote-display{
+    margin-bottom: 1rem;
+}
+.quote-input{
+    background-color: transparent;
+    border: 2px solid rgb(rgb(51, 18, 18), green, blue);
+    outline: none;
+    width: 100%;
+    margin:auto;
+}
+.quote-input:focus{
+    border-color: black;
 }
