@@ -31,13 +31,19 @@ body,.quote-input{
 }
 .quote-display{
     margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
 }
 .quote-input{
     background-color: transparent;
     border: 2px solid rgb(rgb(51, 18, 18), green, blue);
     outline: none;
     width: 100%;
+    height: 7rem;
     margin:auto;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
 }
 .quote-input:focus{
     border-color: black;
@@ -45,4 +51,9 @@ body,.quote-input{
 
 .correct{
     color: green;
+}
+
+.wrong{
+    color: red;
+    text-decoration: underline;
 }
