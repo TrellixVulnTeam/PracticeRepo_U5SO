@@ -25,6 +25,7 @@
     background-image: linear-gradient(180deg, rgb(170, 169, 169),white);
     border: 1px solid #333;
     border-radius: 10px;
+    text-align: center;
   }
   
   .white.active {
@@ -38,6 +39,7 @@
     margin-right: calc(var(--width) / -2);
     border-radius: 10px;
     z-index: 2;
+    text-align: center;
   }
   
   .black.active {
